@@ -1,0 +1,28 @@
+.headerBtnIcon{
+    border: none;
+    background-color: #ffff;
+}
+
+
+
+.btn{
+    height: 5vh;
+    width:15vh;
+    background: transparent;
+    border-radius: 1vh;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+.btn:hover{
+    border: 2px solid rgb(233, 131, 229);
+    color: rgb(233, 131, 229);
+}
+
+.inp{
+    padding: 2vh;
+    height: 0.6vh;
+    width:35vh;
+}
