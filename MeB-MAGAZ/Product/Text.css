@@ -6,7 +6,7 @@ h1{
     font-weight: weight;
     font-style: normal;
 
-    font-size: 36px;
+    font-size: 38px;
 }
 
 a{
@@ -37,4 +37,19 @@ P{
     font-style: normal;
 
     font-size: 24px;
+}
+
+
+label{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+span{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }

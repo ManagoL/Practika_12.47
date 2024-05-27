@@ -182,18 +182,18 @@ border: 5px solid rgb(233, 131, 229);
 
 .tovarCarz{
   border: 2px solid rgb(0, 0, 0);
-  width: 36vh;
+  width: 35vh;
   display: flex;
   flex-direction: column;
   gap: 1vh;
   border-radius: 2vh;
-  padding: 1vh;
+  padding: 2vh;
   transition: 1s;
 }
 
 .tovarCarz:hover{
   border: 2px solid rgb(233, 131, 229);
-  width: 45vh;
+  width: 40vh;
   transition: 2s;
 }
 
@@ -206,7 +206,7 @@ border: 5px solid rgb(233, 131, 229);
 }
 
 .BloclTovarNew{
-  padding: 5vh;
+  padding: 0.5vh;
 }
 
 .BtnTovarNew{
@@ -216,4 +216,8 @@ border: 5px solid rgb(233, 131, 229);
 
 img{
   text-align: center;
+}
+
+#NewTovar{
+  padding: 5vh;
 }
