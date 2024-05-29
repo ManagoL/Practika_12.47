@@ -59,3 +59,43 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+
+function validateForm() {
+
+  let username = document.getElementById('username').value;
+  
+  let password = document.getElementById('Pass').value;
+
+  let PassPovtornp = document.getElementById("PassPovtor").value;
+
+  let Email = document.getElementById("Email")
+  
+  if (username === "" || password === "" || PassPovtornp === "" || Email === "") {
+  
+  alert('Пожалуйста, заполните все поля');
+  
+  return false;
+
+  } else if (password == PassPovtornp){
+    alert("Успешно!")
+    dialog.close() 
+    document.body.classList.remove('modal-open');
+  } else {
+    alert("Не совпадения праролей")
+  }}
+
+
+let SubmitReg = document.getElementById("SubmitReg")
+
+
+SubmitReg.addEventListener("click", ()=>{
+validateForm()
+
+})
+
+
+
+
+
+
