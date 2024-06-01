@@ -1,0 +1,30 @@
+.blockImgDirivili>img{
+    height: 150px;
+    width: 200px;
+    gap: 15vh;
+  }
+  
+  .blockImgDirivili{
+    display: flex;
+    gap: 15vh;
+  
+  
+  }
+  
+  .DiriviliBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #Dirivili{
+    padding: 10vh;
+    padding-top: 10vh;
+  }
+
+
+
+
+
+

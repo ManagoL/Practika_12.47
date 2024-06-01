@@ -1,0 +1,387 @@
+
+
+@media screen and (max-width: 600px) {
+
+*{
+    margin: 0;
+    padding: 0;
+
+    /* outline: 4px solid green !important; */
+}
+
+header{
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1vh;
+
+}
+
+nav>ul>li{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: center;
+
+    gap: 1vh;
+}
+
+.headerInputPoisk {
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+}
+
+
+.formCiti{
+    display: flex;
+    justify-content: center;
+}
+
+
+.StrochaSverhy{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(233, 131, 229);
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    font-size: 12px;
+}
+
+.textGood{
+padding: 1vh;
+width: 35%;
+transition: 1s;
+
+}
+
+.textGood:hover{
+  padding: 1vh;
+
+  transition: 1s;
+
+}
+
+.blockText{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    margin-bottom: 1vh;
+}
+
+
+  .swiper {
+    margin-top: 1vh;
+    margin: 1vh;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 12px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+
+  footer{
+    padding: 5vh;
+    height: 5vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+  }
+
+  .Posi_close1{
+    display: flex;
+    justify-content: end;
+}
+
+  dialog{
+    height: 60vh;
+    width: 60vh;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: none;
+    border-radius: 2rem;
+    padding: 15px;
+    outline: none;
+    z-index: 2;
+text-align:center ;
+
+border: 5px solid rgb(233, 131, 229);
+  }
+
+  .dialogSec{
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+  }
+
+  .artPoz{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-open {
+    overflow: hidden;
+    }
+
+.tovarCarz{
+  border: 2px solid rgb(0, 0, 0);
+  width: 20vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  border-radius: 2vh;
+  padding: 2vh;
+  transition: 1s;
+
+}
+
+
+.tovarNew{
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+  gap: 1vh;
+}
+
+.BloclTovarNew{
+  padding: 0.5vh;
+}
+
+.BtnTovarNew{
+  display: flex;
+  gap: 1vh;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+}
+
+#NewTovar{
+  padding: 1vh;
+}
+
+#CatalagTovar{
+  text-align: center;
+  padding: 9vh;
+  font-size: 46px;
+}
+
+
+
+.tovarCarz:hover{
+    width: 20vh;    
+    transition: 2s;
+  }
+  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+h1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    font-size: 16px;
+}
+
+a{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+    font-size: 12px;
+    transition: 1s;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    transition: 1s;
+}
+
+li{
+    list-style-type:none;
+}
+
+P{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    font-size: 12px;
+}
+
+
+label{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+span{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.tovarCarz>img{
+    width: 120px;
+    height: 140px;
+}
+
+
+
+.invizioTovar{
+    visibility: hidden;
+    display: none;
+}
+
+.headerBtnIcon{
+    border: none;
+    background-color: #ffff;
+}
+
+
+.headerBtnIcon>img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.btn{
+    height: 4vh;
+    width:10vh;
+    background: transparent;
+    border-radius: 1vh;
+    font-size: 12px;
+
+}
+
+@media (hover :hover){
+.btn:hover{
+    color: rgb(233, 131, 229);
+}
+}
+
+@media (hover :none){
+  .btn:active{
+    height: 4vh;
+    width:10vh;
+    background: transparent;
+    border-radius: 1vh;
+    font-size: 12px;
+  }}
+
+
+.inp{
+    padding: 1vh;
+    height: 0.6vh;
+    width:25vh;
+}
+
+
+.blockImgDirivili>img{
+  height: 50px;
+  width: 100px;
+  gap: 1vh;
+}
+
+.blockImgDirivili{
+  display: flex;
+  gap: 1vh;
+
+
+}
+
+.DiriviliBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Dirivili{
+  padding: 2vh;
+  padding-top: 2vh;
+}
+
+
+
+.r:hover{
+  transition: 1s;
+  height: 60vh;
+  width: 60vh;
+}
+
+}
